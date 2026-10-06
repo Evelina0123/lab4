@@ -1,0 +1,116 @@
+body {
+  background-color: #fce4ec;
+  color: #333;
+}
+
+.site-header {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.site-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  object-fit: cover;
+}
+
+.site-nav {
+  background-color: #c2185b;
+}
+
+.site-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: #ffeb3b;
+}
+
+.content-block {
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #e91e63;
+  border-bottom: 2px solid #e91e63;
+}
+
+.table {
+  --bs-table-border-color: #f8bbd0;
+}
+
+.table th {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.table tbody tr:nth-child(odd) > * {
+  background-color: #fce4ec;
+}
+
+.table tbody tr:nth-child(even) > * {
+  background-color: #f8bbd0;
+}
+
+.form-control,
+.form-select,
+fieldset {
+  border-color: #f8bbd0;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.btn-save {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.btn-save:hover,
+.btn-save:focus {
+  background-color: #c2185b;
+  color: #ffffff;
+}
+
+.links a {
+  color: #c2185b;
+}
+
+.site-footer {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.map-wrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.map-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.map-wrapper area {
+  cursor: pointer;
+  outline: none;
+}
